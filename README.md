@@ -1,19 +1,18 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+* Northstar Medical Group is a fictional healthcare company with 200+ employees whose Active Directory was left disorganized by its previous MSP. Users were added manually with no structure, permissions were inconsistent, onboarding took days, and nothing was documented, so nobody could say who had access to what. As a healthcare organization, this put Northstar at risk of HIPAA fines and failed audits.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+* I built a new Active Directory domain, NMG.com, on a Windows Server domain controller in VirtualBox. I created four department OUs (Finance, HR, IT, Operations), each with a matching security group, to implement a flat RBAC model where access comes from group membership instead of individual users. I then provisioned 15 users with standardized usernames, UPNs, job titles, and departments, giving each only the access their role needs, which created a documented, repeatable onboarding process.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+Video coming soon!
 
 ## Tools Used
 * Windows Server
 * Active Directory Domain Services
 * VirtualBox
-* UTM
 * RBAC
 * GitHub
 
@@ -26,5 +25,5 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Diagnosed and resolved a multi case issue (Wrong OU + security group)
+* Documented full incident resolution with root cause analysis
