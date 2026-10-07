@@ -25,5 +25,5 @@ Video coming soon!
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* Solved a mock ticket where a user was given incorrect access.
-* Fully documented my steps from beginning to end.
+* Solved a mock ticket where a user was given incorrect access
+* Fully documented my steps from beginning to end
