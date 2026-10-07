@@ -25,5 +25,5 @@ Video coming soon!
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* Diagnosed and resolved a multi case issue (Wrong OU + security group)
-* Documented full incident resolution with root cause analysis
+* Solved a mock ticket where a user was given incorrect access.
+* Fully documented my steps from beginning to end.
