@@ -1,10 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-* Northstar Medical Group is a fictional healthcare company with 200+ employees whose Active Directory was left disorganized by its previous MSP. Users were added manually with no structure, permissions were inconsistent, onboarding took days, and nothing was documented, so nobody could say who had access to what. As a healthcare organization, this put Northstar at risk of HIPAA fines and failed audits.
+* Northstar Medical Group, a growing fictional healthcare organization, relied on a third-party MSP to manage employee onboarding and access. As the company grew, users were assigned access inconsistently without a structured RBAC policy or standardized onboarding process. There were also no audit trails, creating potential HIPAA compliance risks.
 
 ## Solution Overview
-* I built a new Active Directory domain, NMG.com, on a Windows Server domain controller in VirtualBox. I created four department OUs (Finance, HR, IT, Operations), each with a matching security group, to implement a flat RBAC model where access comes from group membership instead of individual users. I then provisioned 15 users with standardized usernames, UPNs, job titles, and departments, giving each only the access their role needs, which created a documented, repeatable onboarding process.
+* The solution was to establish a more structured and consistent employee onboarding process in Active Directory and ensure users received access based on their job roles. I created a department-based OU structure, organized users into security groups, and provisioned user accounts. I also simulated a mock ticket where a user was provisioned the incorrect level of access.
 
 ## Video Walkthrough
 Video coming soon!
